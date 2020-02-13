@@ -1,0 +1,11 @@
+--- trust-dns-resolver-0.18.0/Cargo.toml        2019-12-22T21:39:19+00:00
++++ trust-dns-resolver-0.18.0/Cargo.toml        2019-12-25T17:04:14.157870+00:00
+@@ -115,8 +115,6 @@
+ mdns = ["trust-dns-proto/mdns"]
+ serde-config = ["serde", "trust-dns-proto/serde-config"]
+ tokio-runtime = ["tokio/rt-core", "trust-dns-proto/tokio-runtime"]
+-[target."cfg(windows)".dependencies.ipconfig]
+-version = "0.2.0"
+ [badges.codecov]
+ branch = "master"
+ repository = "bluejekyll/trust-dns"
